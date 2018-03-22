@@ -1,0 +1,20 @@
+{
+  "name": "dots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "TnC Standard License",
+  "scripts": {
+    "watch": "parcel watch ./src/app.ts --out-dir ../dotsServer/public/dist "
+  },
+  "devDependencies": {
+    "@types/socket.io-client": "^1.4.32",
+    "http-server": "^0.11.1",
+    "parallelshell": "^3.0.2",
+    "parcel-bundler": "^1.6.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "socket.io-client": "^2.0.4"
+  }
+}
