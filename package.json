@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "TnC Standard License",
   "scripts": {
-    "watch": "parcel watch ./src/app.ts --out-dir ../dotsServer/public/dist "
+    "watch": "parcel watch ./src/app.ts --out-dir ../dotsServer/public/dist ",
+    "build": "parcel build ./src/app.ts --out-dir ../dotsServer/public/dist "
   },
   "devDependencies": {
     "@types/socket.io-client": "^1.4.32",
