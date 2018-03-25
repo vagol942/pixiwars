@@ -4,7 +4,7 @@ import * as Rx from 'rxjs';
 
 const game = new Phaser.Game(1280, 720, Phaser.AUTO);
 
-const FINAL_TIME = Date.UTC(2018, 2, 26, 7);
+const FINAL_TIME = Date.UTC(2018, 3, 1, 7);
 // const FINAL_TIME = Date.UTC(2018, 2, 22, 6, 4);
 
 const colors = {
